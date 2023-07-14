@@ -1,0 +1,44 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    
+    height: 100vh;
+    background-image: url(./download.jpg);
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+    display: flex;
+    
+}
+
+.content{
+    top: 40%;
+    position: absolute;
+    
+}
+h3{
+    padding-top: 80px;
+    font-size: 30px;
+    color: darkorchid;
+    font-style: italic;
+    font-weight: bold;
+}
+.container div{
+    display: flex;
+    padding: 20px;
+}
+.content p{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+span{
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+}
